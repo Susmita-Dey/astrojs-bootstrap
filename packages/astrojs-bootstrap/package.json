@@ -1,9 +1,5 @@
 {
-  "name": "astrojs-bootstrap",
-  "workspaces": [
-    "demo",
-    "packages/*"
-  ],
+  "name": "astrobootstrap",
   "version": "0.0.1",
   "type": "module",
   "exports": {
@@ -14,8 +10,10 @@
     "index.ts"
   ],
   "keywords": [
-    "astro-component",
-    "astrojs-bootstrap",
+    "withastro",
+    "astro",
+    "astrocomponent",
+    "astrobootstrap",
     "bootstrap"
   ],
   "scripts": {},
@@ -24,5 +22,8 @@
   },
   "peerDependencies": {
     "astro": "^2.0.0-beta.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0"
   }
 }
